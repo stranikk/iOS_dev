@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BMSTU_Map.xcodeproj">
+      location = "self:BMSTU-Map.xcodeproj">
    </FileRef>
 </Workspace>

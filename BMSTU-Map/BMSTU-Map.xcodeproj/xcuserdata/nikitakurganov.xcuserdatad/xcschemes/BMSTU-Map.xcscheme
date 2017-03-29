@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE08E98D1E86A858005C3681"
-               BuildableName = "BMSTU_Map.app"
-               BlueprintName = "BMSTU_Map"
-               ReferencedContainer = "container:BMSTU_Map.xcodeproj">
+               BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+               BuildableName = "BMSTU-Map.app"
+               BlueprintName = "BMSTU-Map"
+               ReferencedContainer = "container:BMSTU-Map.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE08E98D1E86A858005C3681"
-            BuildableName = "BMSTU_Map.app"
-            BlueprintName = "BMSTU_Map"
-            ReferencedContainer = "container:BMSTU_Map.xcodeproj">
+            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BuildableName = "BMSTU-Map.app"
+            BlueprintName = "BMSTU-Map"
+            ReferencedContainer = "container:BMSTU-Map.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE08E98D1E86A858005C3681"
-            BuildableName = "BMSTU_Map.app"
-            BlueprintName = "BMSTU_Map"
-            ReferencedContainer = "container:BMSTU_Map.xcodeproj">
+            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BuildableName = "BMSTU-Map.app"
+            BlueprintName = "BMSTU-Map"
+            ReferencedContainer = "container:BMSTU-Map.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE08E98D1E86A858005C3681"
-            BuildableName = "BMSTU_Map.app"
-            BlueprintName = "BMSTU_Map"
-            ReferencedContainer = "container:BMSTU_Map.xcodeproj">
+            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BuildableName = "BMSTU-Map.app"
+            BlueprintName = "BMSTU-Map"
+            ReferencedContainer = "container:BMSTU-Map.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

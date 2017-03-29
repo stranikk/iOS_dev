@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BMSTU_Map.xcscheme</key>
+		<key>BMSTU-Map.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AE08E98D1E86A858005C3681</key>
+		<key>AE5106AC1E8C573C004DF033</key>
 		<dict>
 			<key>primary</key>
 			<true/>
