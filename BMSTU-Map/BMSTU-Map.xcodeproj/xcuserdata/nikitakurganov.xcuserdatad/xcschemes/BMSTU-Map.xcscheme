@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+               BlueprintIdentifier = "AEB9A5C21E917F4D00ABC82B"
                BuildableName = "BMSTU-Map.app"
                BlueprintName = "BMSTU-Map"
                ReferencedContainer = "container:BMSTU-Map.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BlueprintIdentifier = "AEB9A5C21E917F4D00ABC82B"
             BuildableName = "BMSTU-Map.app"
             BlueprintName = "BMSTU-Map"
             ReferencedContainer = "container:BMSTU-Map.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BlueprintIdentifier = "AEB9A5C21E917F4D00ABC82B"
             BuildableName = "BMSTU-Map.app"
             BlueprintName = "BMSTU-Map"
             ReferencedContainer = "container:BMSTU-Map.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE5106AC1E8C573C004DF033"
+            BlueprintIdentifier = "AEB9A5C21E917F4D00ABC82B"
             BuildableName = "BMSTU-Map.app"
             BlueprintName = "BMSTU-Map"
             ReferencedContainer = "container:BMSTU-Map.xcodeproj">

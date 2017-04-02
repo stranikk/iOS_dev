@@ -7,33 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE5106B21E8C573C004DF033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5106B11E8C573C004DF033 /* main.m */; };
-		AE5106B51E8C573C004DF033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5106B41E8C573C004DF033 /* AppDelegate.m */; };
-		AE5106B81E8C573C004DF033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5106B71E8C573C004DF033 /* ViewController.m */; };
-		AE5106BB1E8C573C004DF033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5106B91E8C573C004DF033 /* Main.storyboard */; };
-		AE5106BE1E8C573C004DF033 /* BMSTU_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE5106BC1E8C573C004DF033 /* BMSTU_Map.xcdatamodeld */; };
-		AE5106C01E8C573C004DF033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5106BF1E8C573C004DF033 /* Assets.xcassets */; };
-		AE5106C31E8C573C004DF033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5106C11E8C573C004DF033 /* LaunchScreen.storyboard */; };
-		AE5106CB1E8C589A004DF033 /* main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5106CA1E8C589A004DF033 /* main_logo.png */; };
+		AEB9A5C71E917F4D00ABC82B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */; };
+		AEB9A5C91E917F4D00ABC82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9A5C81E917F4D00ABC82B /* ViewController.swift */; };
+		AEB9A5CC1E917F4D00ABC82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB9A5CA1E917F4D00ABC82B /* Main.storyboard */; };
+		AEB9A5CF1E917F4E00ABC82B /* BMSTU_Map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEB9A5CD1E917F4E00ABC82B /* BMSTU_Map.xcdatamodeld */; };
+		AEB9A5D11E917F4E00ABC82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB9A5D01E917F4E00ABC82B /* Assets.xcassets */; };
+		AEB9A5D41E917F4E00ABC82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB9A5D21E917F4E00ABC82B /* LaunchScreen.storyboard */; };
+		AEB9A5DC1E91810500ABC82B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB9A5DB1E91810500ABC82B /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE5106AD1E8C573C004DF033 /* BMSTU-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMSTU-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE5106B11E8C573C004DF033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE5106B31E8C573C004DF033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE5106B41E8C573C004DF033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE5106B61E8C573C004DF033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE5106B71E8C573C004DF033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE5106BA1E8C573C004DF033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE5106BD1E8C573C004DF033 /* BMSTU_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMSTU_Map.xcdatamodel; sourceTree = "<group>"; };
-		AE5106BF1E8C573C004DF033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE5106C21E8C573C004DF033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE5106C41E8C573C004DF033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE5106CA1E8C589A004DF033 /* main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_logo.png; sourceTree = "<group>"; };
+		AEB9A5C31E917F4D00ABC82B /* BMSTU-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMSTU-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEB9A5C81E917F4D00ABC82B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEB9A5CB1E917F4D00ABC82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB9A5CE1E917F4E00ABC82B /* BMSTU_Map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMSTU_Map.xcdatamodel; sourceTree = "<group>"; };
+		AEB9A5D01E917F4E00ABC82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB9A5D31E917F4E00ABC82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB9A5D51E917F4E00ABC82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB9A5DB1E91810500ABC82B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE5106AA1E8C573C004DF033 /* Frameworks */ = {
+		AEB9A5C01E917F4D00ABC82B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,58 +39,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AE5106A41E8C573C004DF033 = {
+		AEB9A5BA1E917F4D00ABC82B = {
 			isa = PBXGroup;
 			children = (
-				AE5106AF1E8C573C004DF033 /* BMSTU-Map */,
-				AE5106AE1E8C573C004DF033 /* Products */,
+				AEB9A5C51E917F4D00ABC82B /* BMSTU-Map */,
+				AEB9A5C41E917F4D00ABC82B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AE5106AE1E8C573C004DF033 /* Products */ = {
+		AEB9A5C41E917F4D00ABC82B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE5106AD1E8C573C004DF033 /* BMSTU-Map.app */,
+				AEB9A5C31E917F4D00ABC82B /* BMSTU-Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE5106AF1E8C573C004DF033 /* BMSTU-Map */ = {
+		AEB9A5C51E917F4D00ABC82B /* BMSTU-Map */ = {
 			isa = PBXGroup;
 			children = (
-				AE5106B31E8C573C004DF033 /* AppDelegate.h */,
-				AE5106B41E8C573C004DF033 /* AppDelegate.m */,
-				AE5106B61E8C573C004DF033 /* ViewController.h */,
-				AE5106B71E8C573C004DF033 /* ViewController.m */,
-				AE5106B91E8C573C004DF033 /* Main.storyboard */,
-				AE5106BF1E8C573C004DF033 /* Assets.xcassets */,
-				AE5106CA1E8C589A004DF033 /* main_logo.png */,
-				AE5106C11E8C573C004DF033 /* LaunchScreen.storyboard */,
-				AE5106C41E8C573C004DF033 /* Info.plist */,
-				AE5106BC1E8C573C004DF033 /* BMSTU_Map.xcdatamodeld */,
-				AE5106B01E8C573C004DF033 /* Supporting Files */,
+				AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */,
+				AEB9A5C81E917F4D00ABC82B /* ViewController.swift */,
+				AEB9A5CA1E917F4D00ABC82B /* Main.storyboard */,
+				AEB9A5DB1E91810500ABC82B /* logo.png */,
+				AEB9A5D01E917F4E00ABC82B /* Assets.xcassets */,
+				AEB9A5D21E917F4E00ABC82B /* LaunchScreen.storyboard */,
+				AEB9A5D51E917F4E00ABC82B /* Info.plist */,
+				AEB9A5CD1E917F4E00ABC82B /* BMSTU_Map.xcdatamodeld */,
 			);
 			path = "BMSTU-Map";
-			sourceTree = "<group>";
-		};
-		AE5106B01E8C573C004DF033 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE5106B11E8C573C004DF033 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE5106AC1E8C573C004DF033 /* BMSTU-Map */ = {
+		AEB9A5C21E917F4D00ABC82B /* BMSTU-Map */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE5106C71E8C573C004DF033 /* Build configuration list for PBXNativeTarget "BMSTU-Map" */;
+			buildConfigurationList = AEB9A5D81E917F4E00ABC82B /* Build configuration list for PBXNativeTarget "BMSTU-Map" */;
 			buildPhases = (
-				AE5106A91E8C573C004DF033 /* Sources */,
-				AE5106AA1E8C573C004DF033 /* Frameworks */,
-				AE5106AB1E8C573C004DF033 /* Resources */,
+				AEB9A5BF1E917F4D00ABC82B /* Sources */,
+				AEB9A5C01E917F4D00ABC82B /* Frameworks */,
+				AEB9A5C11E917F4D00ABC82B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,26 +87,27 @@
 			);
 			name = "BMSTU-Map";
 			productName = "BMSTU-Map";
-			productReference = AE5106AD1E8C573C004DF033 /* BMSTU-Map.app */;
+			productReference = AEB9A5C31E917F4D00ABC82B /* BMSTU-Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AE5106A51E8C573C004DF033 /* Project object */ = {
+		AEB9A5BB1E917F4D00ABC82B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Никита Курганов";
 				TargetAttributes = {
-					AE5106AC1E8C573C004DF033 = {
+					AEB9A5C21E917F4D00ABC82B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3D32EET7TF;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AE5106A81E8C573C004DF033 /* Build configuration list for PBXProject "BMSTU-Map" */;
+			buildConfigurationList = AEB9A5BE1E917F4D00ABC82B /* Build configuration list for PBXProject "BMSTU-Map" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,57 +115,56 @@
 				en,
 				Base,
 			);
-			mainGroup = AE5106A41E8C573C004DF033;
-			productRefGroup = AE5106AE1E8C573C004DF033 /* Products */;
+			mainGroup = AEB9A5BA1E917F4D00ABC82B;
+			productRefGroup = AEB9A5C41E917F4D00ABC82B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE5106AC1E8C573C004DF033 /* BMSTU-Map */,
+				AEB9A5C21E917F4D00ABC82B /* BMSTU-Map */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE5106AB1E8C573C004DF033 /* Resources */ = {
+		AEB9A5C11E917F4D00ABC82B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5106C31E8C573C004DF033 /* LaunchScreen.storyboard in Resources */,
-				AE5106CB1E8C589A004DF033 /* main_logo.png in Resources */,
-				AE5106C01E8C573C004DF033 /* Assets.xcassets in Resources */,
-				AE5106BB1E8C573C004DF033 /* Main.storyboard in Resources */,
+				AEB9A5DC1E91810500ABC82B /* logo.png in Resources */,
+				AEB9A5D41E917F4E00ABC82B /* LaunchScreen.storyboard in Resources */,
+				AEB9A5D11E917F4E00ABC82B /* Assets.xcassets in Resources */,
+				AEB9A5CC1E917F4D00ABC82B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE5106A91E8C573C004DF033 /* Sources */ = {
+		AEB9A5BF1E917F4D00ABC82B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5106B81E8C573C004DF033 /* ViewController.m in Sources */,
-				AE5106B51E8C573C004DF033 /* AppDelegate.m in Sources */,
-				AE5106BE1E8C573C004DF033 /* BMSTU_Map.xcdatamodeld in Sources */,
-				AE5106B21E8C573C004DF033 /* main.m in Sources */,
+				AEB9A5C91E917F4D00ABC82B /* ViewController.swift in Sources */,
+				AEB9A5C71E917F4D00ABC82B /* AppDelegate.swift in Sources */,
+				AEB9A5CF1E917F4E00ABC82B /* BMSTU_Map.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE5106B91E8C573C004DF033 /* Main.storyboard */ = {
+		AEB9A5CA1E917F4D00ABC82B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE5106BA1E8C573C004DF033 /* Base */,
+				AEB9A5CB1E917F4D00ABC82B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE5106C11E8C573C004DF033 /* LaunchScreen.storyboard */ = {
+		AEB9A5D21E917F4E00ABC82B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE5106C21E8C573C004DF033 /* Base */,
+				AEB9A5D31E917F4E00ABC82B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +172,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE5106C51E8C573C004DF033 /* Debug */ = {
+		AEB9A5D61E917F4E00ABC82B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,11 +216,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AE5106C61E8C573C004DF033 /* Release */ = {
+		AEB9A5D71E917F4E00ABC82B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,12 +259,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AE5106C81E8C573C004DF033 /* Debug */ = {
+		AEB9A5D91E917F4E00ABC82B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -286,10 +274,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IU8-44.BMSTU-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		AE5106C91E8C573C004DF033 /* Release */ = {
+		AEB9A5DA1E917F4E00ABC82B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,43 +287,44 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IU8-44.BMSTU-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE5106A81E8C573C004DF033 /* Build configuration list for PBXProject "BMSTU-Map" */ = {
+		AEB9A5BE1E917F4D00ABC82B /* Build configuration list for PBXProject "BMSTU-Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE5106C51E8C573C004DF033 /* Debug */,
-				AE5106C61E8C573C004DF033 /* Release */,
+				AEB9A5D61E917F4E00ABC82B /* Debug */,
+				AEB9A5D71E917F4E00ABC82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE5106C71E8C573C004DF033 /* Build configuration list for PBXNativeTarget "BMSTU-Map" */ = {
+		AEB9A5D81E917F4E00ABC82B /* Build configuration list for PBXNativeTarget "BMSTU-Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE5106C81E8C573C004DF033 /* Debug */,
-				AE5106C91E8C573C004DF033 /* Release */,
+				AEB9A5D91E917F4E00ABC82B /* Debug */,
+				AEB9A5DA1E917F4E00ABC82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AE5106BC1E8C573C004DF033 /* BMSTU_Map.xcdatamodeld */ = {
+		AEB9A5CD1E917F4E00ABC82B /* BMSTU_Map.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AE5106BD1E8C573C004DF033 /* BMSTU_Map.xcdatamodel */,
+				AEB9A5CE1E917F4E00ABC82B /* BMSTU_Map.xcdatamodel */,
 			);
-			currentVersion = AE5106BD1E8C573C004DF033 /* BMSTU_Map.xcdatamodel */;
+			currentVersion = AEB9A5CE1E917F4E00ABC82B /* BMSTU_Map.xcdatamodel */;
 			path = BMSTU_Map.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = AE5106A51E8C573C004DF033 /* Project object */;
+	rootObject = AEB9A5BB1E917F4D00ABC82B /* Project object */;
 }
