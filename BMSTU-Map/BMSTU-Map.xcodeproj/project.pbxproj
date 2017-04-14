@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6935757D6DF22A27F2C8276C /* Pods_BMSTU_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E883E3E44E92FDE008B12B /* Pods_BMSTU_Map.framework */; };
-		AE2491B11E92C88B0078F378 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9700931E92B72C00B16310 /* RealmSwift.framework */; };
-		AE2491B21E92C8930078F378 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9700951E92C2FC00B16310 /* Realm.framework */; };
-		AE745EBA1E92CD000043064F /* Auditories.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE745EB91E92CD000043064F /* Auditories.swift */; };
+		AE32881F1E976FA90024939B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32881E1E976FA90024939B /* Database.swift */; };
 		AE9700991E92C3E000B16310 /* Realm.framework in Sources */ = {isa = PBXBuildFile; fileRef = AE9700951E92C2FC00B16310 /* Realm.framework */; };
 		AE97009A1E92C3E000B16310 /* RealmSwift.framework in Sources */ = {isa = PBXBuildFile; fileRef = AE9700931E92B72C00B16310 /* RealmSwift.framework */; };
+		AEB1C5DD1E9B5D6D0075E1C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB1C5DC1E9B5D6D0075E1C9 /* MapKit.framework */; };
 		AEB9A5C71E917F4D00ABC82B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */; };
 		AEB9A5C91E917F4D00ABC82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9A5C81E917F4D00ABC82B /* ViewController.swift */; };
 		AEB9A5CC1E917F4D00ABC82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB9A5CA1E917F4D00ABC82B /* Main.storyboard */; };
@@ -24,9 +23,10 @@
 
 /* Begin PBXFileReference section */
 		405DC0BB8DA313A7C15E8FEC /* Pods-BMSTU-Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMSTU-Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMSTU-Map/Pods-BMSTU-Map.release.xcconfig"; sourceTree = "<group>"; };
-		AE745EB91E92CD000043064F /* Auditories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auditories.swift; sourceTree = "<group>"; };
+		AE32881E1E976FA90024939B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		AE9700931E92B72C00B16310 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMSTU-Map-bzqfmjfgdvbytfelirfmzuvmqkal/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		AE9700951E92C2FC00B16310 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../Library/Developer/Xcode/DerivedData/BMSTU-Map-bzqfmjfgdvbytfelirfmzuvmqkal/Build/Products/Debug-iphonesimulator/Realm/Realm.framework"; sourceTree = "<group>"; };
+		AEB1C5DC1E9B5D6D0075E1C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AEB9A5C31E917F4D00ABC82B /* BMSTU-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMSTU-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB9A5C81E917F4D00ABC82B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,8 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2491B21E92C8930078F378 /* Realm.framework in Frameworks */,
-				AE2491B11E92C88B0078F378 /* RealmSwift.framework in Frameworks */,
+				AEB1C5DD1E9B5D6D0075E1C9 /* MapKit.framework in Frameworks */,
 				6935757D6DF22A27F2C8276C /* Pods_BMSTU_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +56,7 @@
 		19362874FAEF284FCC81D302 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEB1C5DC1E9B5D6D0075E1C9 /* MapKit.framework */,
 				AE9700951E92C2FC00B16310 /* Realm.framework */,
 				AE9700931E92B72C00B16310 /* RealmSwift.framework */,
 				D6E883E3E44E92FDE008B12B /* Pods_BMSTU_Map.framework */,
@@ -85,7 +85,7 @@
 		AEB9A5C51E917F4D00ABC82B /* BMSTU-Map */ = {
 			isa = PBXGroup;
 			children = (
-				AE745EB91E92CD000043064F /* Auditories.swift */,
+				AE32881E1E976FA90024939B /* Database.swift */,
 				AEB9A5C61E917F4D00ABC82B /* AppDelegate.swift */,
 				AEB9A5C81E917F4D00ABC82B /* ViewController.swift */,
 				AEB9A5CA1E917F4D00ABC82B /* Main.storyboard */,
@@ -144,6 +144,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3D32EET7TF;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -232,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE745EBA1E92CD000043064F /* Auditories.swift in Sources */,
+				AE32881F1E976FA90024939B /* Database.swift in Sources */,
 				AE9700991E92C3E000B16310 /* Realm.framework in Sources */,
 				AE97009A1E92C3E000B16310 /* RealmSwift.framework in Sources */,
 				AEB9A5C91E917F4D00ABC82B /* ViewController.swift in Sources */,

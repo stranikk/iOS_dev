@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,43 +21,104 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cdc-Kc-e9D">
-                                <rect key="frame" x="16" y="49" width="343" height="301"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPT-81-Q1d">
-                                <rect key="frame" x="37" y="358" width="300" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Путиводительпо главному корпусуМГТУ им. Баумана</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <color key="textColor" red="1" green="0.99997591972351074" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Куда(например, 323)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R0d-Su-lEB">
-                                <rect key="frame" x="65" y="536" width="245" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Откуда (например, 501ю)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c0p-g9-TL6">
-                                <rect key="frame" x="65" y="482" width="245" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU1-hf-SfN">
-                                <rect key="frame" x="92" y="581" width="190" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Посторить маршрут">
-                                    <color key="titleColor" red="1" green="0.99997591972351074" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gZ-ff-twI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpH-to-I2T">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2xb-Wu-42E">
+                                                <rect key="frame" x="37" y="41" width="300" height="300"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTG-m6-TBv">
+                                                <rect key="frame" x="47" y="351" width="281" height="97"/>
+                                                <string key="text">Путиводительпо главному корпусуМГТУ им. Баумана</string>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                                <color key="textColor" red="1" green="0.99997591972351074" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Откуда (например, 501ю)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XFN-WU-zUp">
+                                                <rect key="frame" x="72" y="475" width="230" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Куда(например, 323)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="guu-bh-Mw9">
+                                                <rect key="frame" x="72" y="528" width="230" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojH-gd-kmZ">
+                                                <rect key="frame" x="98" y="569" width="178" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                                <state key="normal" title="Построить маршрут">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VhW-rD-Udv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHC-eI-1uG">
+                                                <rect key="frame" x="85" y="604" width="204" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                                <state key="normal" title="Показать все аудитории">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.24472342431545258" green="0.22331084311008453" blue="0.41580092906951904" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="XFN-WU-zUp" firstAttribute="top" secondItem="PTG-m6-TBv" secondAttribute="bottom" constant="27" id="0YB-pl-Kfh"/>
+                                            <constraint firstAttribute="bottom" secondItem="ojH-gd-kmZ" secondAttribute="bottom" constant="68" id="1hM-tt-eFF"/>
+                                            <constraint firstItem="guu-bh-Mw9" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="72" id="7C5-Jp-LqQ"/>
+                                            <constraint firstItem="ojH-gd-kmZ" firstAttribute="top" secondItem="guu-bh-Mw9" secondAttribute="bottom" constant="11" id="Hy6-p0-5Br"/>
+                                            <constraint firstAttribute="trailing" secondItem="XFN-WU-zUp" secondAttribute="trailing" constant="73" id="I8h-RC-VHt"/>
+                                            <constraint firstItem="UHC-eI-1uG" firstAttribute="top" secondItem="guu-bh-Mw9" secondAttribute="bottom" constant="46" id="LDl-jl-IkZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="PTG-m6-TBv" secondAttribute="bottom" constant="219" id="NI3-Qz-6lm"/>
+                                            <constraint firstAttribute="trailing" secondItem="2xb-Wu-42E" secondAttribute="trailing" constant="38" id="PWG-dd-a3y"/>
+                                            <constraint firstAttribute="trailing" secondItem="PTG-m6-TBv" secondAttribute="trailing" constant="47" id="S4a-7C-bpn"/>
+                                            <constraint firstItem="ojH-gd-kmZ" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="98" id="SFE-q0-aSc"/>
+                                            <constraint firstAttribute="trailing" secondItem="ojH-gd-kmZ" secondAttribute="trailing" constant="99" id="WU9-zk-mRs"/>
+                                            <constraint firstAttribute="bottom" secondItem="2xb-Wu-42E" secondAttribute="bottom" constant="326" id="WcI-hP-i8E"/>
+                                            <constraint firstAttribute="bottom" secondItem="XFN-WU-zUp" secondAttribute="bottom" constant="162" id="Yg7-7e-bNX"/>
+                                            <constraint firstItem="2xb-Wu-42E" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="37" id="Yhm-UM-gE4"/>
+                                            <constraint firstAttribute="trailing" secondItem="UHC-eI-1uG" secondAttribute="trailing" constant="86" id="ihq-2d-ra9"/>
+                                            <constraint firstItem="2xb-Wu-42E" firstAttribute="top" secondItem="OpH-to-I2T" secondAttribute="top" constant="41" id="jBY-yJ-Wqg"/>
+                                            <constraint firstItem="UHC-eI-1uG" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="85" id="nko-zi-Q9y"/>
+                                            <constraint firstAttribute="bottom" secondItem="guu-bh-Mw9" secondAttribute="bottom" constant="109" id="qDO-ZJ-Ys1"/>
+                                            <constraint firstAttribute="trailing" secondItem="guu-bh-Mw9" secondAttribute="trailing" constant="73" id="qnL-zf-x1B"/>
+                                            <constraint firstAttribute="bottom" secondItem="UHC-eI-1uG" secondAttribute="bottom" constant="33" id="rHy-ce-BLe"/>
+                                            <constraint firstItem="PTG-m6-TBv" firstAttribute="top" secondItem="2xb-Wu-42E" secondAttribute="bottom" constant="10" id="rfe-B6-pwh"/>
+                                            <constraint firstItem="guu-bh-Mw9" firstAttribute="top" secondItem="XFN-WU-zUp" secondAttribute="bottom" constant="23" id="umj-Mi-zag"/>
+                                            <constraint firstItem="PTG-m6-TBv" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="47" id="w4y-io-Brg"/>
+                                            <constraint firstItem="XFN-WU-zUp" firstAttribute="leading" secondItem="OpH-to-I2T" secondAttribute="leading" constant="72" id="xp6-yi-N0q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="OpH-to-I2T" firstAttribute="centerY" secondItem="7gZ-ff-twI" secondAttribute="centerY" id="5Dl-hl-0vw"/>
+                                    <constraint firstAttribute="bottom" secondItem="OpH-to-I2T" secondAttribute="bottom" id="6vO-1j-Von"/>
+                                    <constraint firstAttribute="trailing" secondItem="OpH-to-I2T" secondAttribute="trailing" id="Mc7-ng-hxP"/>
+                                    <constraint firstItem="OpH-to-I2T" firstAttribute="top" secondItem="7gZ-ff-twI" secondAttribute="top" id="MvT-yh-xGK"/>
+                                    <constraint firstItem="OpH-to-I2T" firstAttribute="centerX" secondItem="7gZ-ff-twI" secondAttribute="centerX" id="psS-kz-rSr"/>
+                                    <constraint firstItem="OpH-to-I2T" firstAttribute="leading" secondItem="7gZ-ff-twI" secondAttribute="leading" id="vFc-W7-Hb1"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.24467079341411591" green="0.21924470365047455" blue="0.4158012866973877" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.99997591972351074" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7gZ-ff-twI" secondAttribute="trailing" id="19y-L9-Yp1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7gZ-ff-twI" secondAttribute="bottom" id="a8X-xg-sZH"/>
+                            <constraint firstItem="7gZ-ff-twI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="auh-g5-tKm"/>
+                            <constraint firstItem="7gZ-ff-twI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cGT-gP-2qZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bottomTextField" destination="guu-bh-Mw9" id="PBn-nq-as4"/>
+                        <outlet property="scrollView" destination="7gZ-ff-twI" id="kBM-XV-1IZ"/>
+                        <outlet property="topTextField" destination="XFN-WU-zUp" id="H3P-sM-hqM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
